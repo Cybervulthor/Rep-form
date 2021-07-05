@@ -13,7 +13,7 @@
     <!-- hover-css -->
     <link rel="stylesheet" href="./css/hover.css">
     <!-- animation-css -->
-    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/animation.css">
 
     <title>Foxpay</title>
     <!-- testei a vizu em mobile e ficou tudo errado por conta das unidades de medidas usadas -->
@@ -51,12 +51,12 @@
                 <!-- nome -->
                 <div>
                     <label for="nome">Alias :</label>
-                    <input type="text" name="nome" id="nome" placeholder="specify your ID" />
+                    <input class="hvr" type="text" name="nome" id="nome" placeholder="specify your ID" />
                 </div>
                 <!--  email -->
                 <div>
                     <label for="email">OP/CTTR-Fmail :</label>
-                    <input type="email" name="email" id="email" placeholder="acessID@Foxmail.com" />
+                    <input class="hvr" type="email" name="email" id="email" placeholder="acessID@Foxmail.com" />
                     <!-- CTTR = contractor -->
                     <!--  -->
 
@@ -64,7 +64,7 @@
                 <!--  senha -->
                 <div>
                     <label for="senha">Foxkey :</label>
-                    <input type="password" name="senha" id="senha" placeholder="/..*#*key(null)*#*..\" />
+                    <input class="hvr" type="password" name="senha" id="senha" placeholder="/..*#*key(null)*#*..\" />
                     <!-- ciente que oq eu fiz nao foi legal no placeholder (usar parenteses) mas achei que ia ficar visualmente legal para o tema -->
 
                 </div>
@@ -73,9 +73,9 @@
 
                 <!-- botao -->
                 <div>
-                    <input type="submit" value="Liberate!">
+                    <input type="submit" value="Liberate!" class=btn id="snd">
                     <!-- botao resetar -->
-                    <button type="reset">Forfeit</button>
+                    <button type="reset" class=btn id="clr">Forfeit</button>
                     <!--\------------------------------------//-->
                 </div>
 
@@ -86,15 +86,21 @@
 
             </fieldset>
         </form>
+    </main>
+    <footer>*# FOXpay-Spec/blackOPS 2021 //-uberlandia-\\ nao fazemos viagem uber favor nao insistir #*</footer>
+</body>
 
-        <!-- <div id="extras"> scrapped -->
+</html>
+<!-- conteudo retirado de uso mas mantidos como informativo para mim -->
+
+        <!-- <div id="extras"> /-scrapped-\ -->
         <!-- sodebrinks e testes -->
 
         <!-- <div>
                  botoes extra forfun -->
 
         <!-- <a href="./redirect/operatives.html">
-                    <button type="button">Know your mercs</button>
+                    <button type="button"></button>
                 </a>
             </div> -->
 
@@ -137,7 +143,3 @@
 
         <!-- </div> -->
         <!-- e a div de id extras -->
-    </main>
-</body>
-
-</html>

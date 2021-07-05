@@ -8,8 +8,8 @@
 body{
 margin: 20px;
 background-image:linear-gradient(rgb(70, 69, 69), rgb(43, 43, 43),rgb(39, 38, 38));
-background-repeat: no-repeat;
-background-attachment: fixed; 
+width: fit-content;
+height: fit-content;
 font-family: sans-serif;
 
 }
@@ -28,10 +28,11 @@ font-family: sans-serif;
 #form{
     padding: 30px;
     background-color: rgb(39, 34, 43);
-    max-width: 28%;
+    max-width: 30%;
     border-radius: 10px;
-    margin: 20px auto; 
+    margin: 0% auto; 
     border: solid 2px rgb(29, 28, 28);
+    margin-bottom:30px ;
     
 
 
@@ -54,7 +55,7 @@ fieldset{
     border: outset 5px rgba(92, 92, 92, 0.712);
     border-radius: 10px;   
     padding: 10px;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
 
    
 }
@@ -64,6 +65,7 @@ fieldset{
     text-shadow: -1px 0 rgb(110, 1, 1), 0 1px rgb(110, 1, 1), 1px 0 rgb(110, 1, 1), 0 -1px rgb(110, 1, 1);
 
     font-size: 20px;
+    
     
 
 }
@@ -84,9 +86,37 @@ input[type=password]{
     width: 100%;
     color: rgb(113, 113, 113);
     font-size: 20px;
-    
-    
-    
-
 
 }
+
+.btn{
+    padding: 30px 30px; 
+    border-radius: 15px;
+    border: none;
+    background:none;
+    color:rgb(27, 18, 43);
+    background-color: rgba(194, 29, 29, 0.7);
+    font-size: 20px;
+
+}
+
+
+#clr{
+    margin-left: 26%;
+}
+
+footer{
+
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    border: solid 2px rgba(119, 118, 118, 0.507);
+    text-decoration: line-through 1px;
+    font-size: 30px;
+    color: rgb(66, 38, 87);
+    border-radius: 5px;
+}
+
+
+
