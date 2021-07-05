@@ -1,0 +1,92 @@
+/* nao cheguei a pegar mt bem o conceito desse reseter nao mas vi que faz diferenca no começo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+margin: 20px;
+background-image:linear-gradient(rgb(70, 69, 69), rgb(43, 43, 43),rgb(39, 38, 38));
+background-repeat: no-repeat;
+background-attachment: fixed; 
+font-family: sans-serif;
+
+}
+
+/* essa foi a tentativa a logo tentei so com width e height e dps do jeito que esta agora e nenhum deu jeito */
+/* resolvido eu dei id pra div e nao pra img eu estava moificando a div que nem maluco... */
+ #logo{
+     position: absolute;
+  
+    max-height: 25%;
+    max-width: 25%;
+
+ 
+}
+
+#form{
+    padding: 30px;
+    background-color: rgb(39, 34, 43);
+    max-width: 28%;
+    border-radius: 10px;
+    margin: 20px auto; 
+    border: solid 2px rgb(29, 28, 28);
+    
+
+
+
+}
+fieldset{
+    border: none;
+    
+}
+
+#form h1{
+    color: rgb(0, 0, 0);
+    /* 1 pixel black shadow to left, top, right and bottom */
+    /* usei um sombreado que eu pesquisei na net essencialmente é so uma sombra pra contorno, isso configura gambiarra de má pratica? */
+    
+    text-shadow: -1px 0 rgb(136, 136, 136), 0 1px rgb(136, 136, 136), 1px 0 rgb(136, 136, 136), 0 -1px rgb(136, 136, 136);
+
+
+    text-align: center;
+    border: outset 5px rgba(92, 92, 92, 0.712);
+    border-radius: 10px;   
+    padding: 10px;
+     margin-bottom: 20px;
+
+   
+}
+
+#form label{
+    color: rgba(194, 29, 29, 0.685);
+    text-shadow: -1px 0 rgb(110, 1, 1), 0 1px rgb(110, 1, 1), 1px 0 rgb(110, 1, 1), 0 -1px rgb(110, 1, 1);
+
+    font-size: 20px;
+    
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password]{
+    position: relative;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    color: rgb(113, 113, 113);
+    font-size: 20px;
+    
+    
+    
+
+
+}

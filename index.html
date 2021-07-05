@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon shortcut" href="./img/foxhoundlogoHD.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- hover-css -->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!-- animation-css -->
+    <link rel="stylesheet" href="./css/hover.css">
+
+    <title>Foxpay</title>
+    <!-- testei a vizu em mobile e ficou tudo errado por conta das unidades de medidas usadas -->
+    <!-- mexi um pouco e creio ter resolvido -->
+</head>
+<!-- dessa vez eu segui a idea que eu tive no dia "foxpay" e lembrei de Metal Gear S, otimo jogo recomendo -->
+<!-- a aparencia meio "graphic design is my passion" é proveniente de querer manter simples cinza e meio "militaristico" ja que e meu tema -->
+
+<body>
+    <main>
+
+
+
+        <!-- logo -->
+        <div>
+            <a href="./redirect/EG.html">
+                <img src="./img/fox.png" alt="foxhoundOP" id=logo>
+                <!-- tive problemas em ajustar o tamanho da imagem pra ficar como uma logo acima do form -->
+                <!-- so aceitou estilizaçao inline pois no css nao funcionava quando tentei  -->
+                <!-- tentei tbm sem estar vinculado a um link e deu no mesmo -->
+                <!-- RESOLVIDO- problema era que eu dei id pra div e tentei mudar a img mexendo na div agora ta certo  -->
+            </a>
+
+        </div>
+
+
+
+
+        <!-- form "div" -->
+        <form id="form">
+            <fieldset class=container>
+
+                <h1>FOXPay, for all your paramilitary needs</h1>
+
+                <!-- nome -->
+                <div>
+                    <label for="nome">Alias :</label>
+                    <input type="text" name="nome" id="nome" placeholder="specify your ID" />
+                </div>
+                <!--  email -->
+                <div>
+                    <label for="email">OP/CTTR-Fmail :</label>
+                    <input type="email" name="email" id="email" placeholder="acessID@Foxmail.com" />
+                    <!-- CTTR = contractor -->
+                    <!--  -->
+
+                </div>
+                <!--  senha -->
+                <div>
+                    <label for="senha">Foxkey :</label>
+                    <input type="password" name="senha" id="senha" placeholder="/..*#*key(null)*#*..\" />
+                    <!-- ciente que oq eu fiz nao foi legal no placeholder (usar parenteses) mas achei que ia ficar visualmente legal para o tema -->
+
+                </div>
+
+
+
+                <!-- botao -->
+                <div>
+                    <input type="submit" value="Liberate!">
+                    <!-- botao resetar -->
+                    <button type="reset">Forfeit</button>
+                    <!--\------------------------------------//-->
+                </div>
+
+
+
+
+
+
+            </fieldset>
+        </form>
+
+        <!-- <div id="extras"> scrapped -->
+        <!-- sodebrinks e testes -->
+
+        <!-- <div>
+                 botoes extra forfun -->
+
+        <!-- <a href="./redirect/operatives.html">
+                    <button type="button">Know your mercs</button>
+                </a>
+            </div> -->
+
+        <!-- tentei fazer um botao que fazia redirect e nao deu certo fazer so com "button" -->
+        <!-- tava antes assim: -->
+
+        <!--       <a href="./redirect/aboutFP.html">
+                        <button>Conheca nossas opearacoes</button>
+                        
+                 -->
+
+        <!-- duvida sanada eu escrevi a tag button e esqueci de por o tipo, acho que por default ele usa "enviar"
+                se nao for especificado -->
+        <!-- !!!OBS ISSO NAO È UMA AFIRMAÇAO!!! estou constatando oq rolou e dando um palpite falta confirmar -->
+        <!-- 
+            <div>
+                <a href="./redirect/aboutFP.html">
+                    <input type="button" value="aboutFP" />
+                </a>
+            </div>
+
+            <div>
+                <a href="https://www.ahnegao.com.br/">
+                    <input type="button" value="Comedia para aquecer essa segunda-fria" />
+                </a>
+            </div> -->
+
+
+
+        <!-- achei usar o input um pouco mais travado que só usar "button" ja que button tem como por o texto
+                do botao entre a tag de abertura e a de fechar exemplo: -->
+
+        <!-- <button> aqui fica o texto exibido no botao <button/> -->
+        <!-- tambem li que button aceita conteudo e input nao (imagens foi um exemplo dado onde eu li) -->
+
+        <!-- já usando o input ficaria <input type="button" value="aqui fica o texto do botao"/> -->
+        <!-- se eu tiver com meias informacoes e isso na verdade ser um grande equivoco agradeço o esclarescimento! -->
+
+
+
+        <!-- </div> -->
+        <!-- e a div de id extras -->
+    </main>
+</body>
+
+</html>
