@@ -11,35 +11,55 @@ background-image:linear-gradient(rgb(70, 69, 69), rgb(43, 43, 43),rgb(39, 38, 38
 width: fit-content;
 height: fit-content;
 font-family: sans-serif;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
 
 }
 
 /* essa foi a tentativa a logo tentei so com width e height e dps do jeito que esta agora e nenhum deu jeito */
 /* resolvido eu dei id pra div e nao pra img eu estava moificando a div que nem maluco... */
- #logo{
-     position: absolute;
-  
-    max-height: 25%;
-    max-width: 25%;
+ 
+#logo-div{
+    display: inline-flex;
+    
+    justify-content: flex-start;
+}
+
+#logo{
+
+
+    display: flex;
+    padding-bottom: 10px;
+    width: 25%;
 
  
 }
 
 #form{
+    display: flex;
     padding: 30px;
     background-color: rgb(39, 34, 43);
-    max-width: 30%;
     border-radius: 10px;
     margin: 0% auto; 
     border: solid 2px rgb(29, 28, 28);
     margin-bottom:30px ;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
     
 
 
 
 }
 fieldset{
+
     border: none;
+
+    /* border: white solid 1px; 
+    test purposes delimitations
+    */
     
 }
 
@@ -89,8 +109,13 @@ input[type=password]{
 
 }
 
+#btns{
+    display: flex;
+    justify-content: space-between;
+}
+
 .btn{
-    padding: 30px 30px; 
+    padding: 26px 26px; 
     border-radius: 15px;
     border: none;
     background:none;
